@@ -1,6 +1,6 @@
 # Maintainer: CalmaSaCow <calmasacow@gmail.com>
 pkgname=wavesink-bin
-pkgver=1.0.1
+pkgver=1.1.0
 pkgrel=1
 pkgdesc="Linux-native PipeWire mixer with per-app routing, independent mixes, and per-input audio effects"
 arch=('x86_64')
@@ -16,7 +16,7 @@ options=('!strip' '!debug')
 source=("https://github.com/calmasacow/WaveSink/releases/download/v${pkgver}/wavesink_${pkgver}_amd64.deb"
         "https://raw.githubusercontent.com/calmasacow/WaveSink/v${pkgver}/LICENSE")
 noextract=("wavesink_${pkgver}_amd64.deb")
-sha256sums=('998154471ae5b097f38d199ea4d2391a6d7fb5007fc0d8a143c757cdf5a4108a'
+sha256sums=('ae3fadaae3235df44c0cfafd7948bb96079acac89d197a2bd1e967d71fd01f08'
             '3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986')
 
 package() {
